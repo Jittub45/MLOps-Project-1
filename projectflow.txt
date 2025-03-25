@@ -21,6 +21,7 @@
 13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
 
 
-jitendrakumaryadav2003
-NE9AWkLgHw3N571F
-mongodb+srv://jitendrakumaryadav2003:<db_password>@cluster0.orbk3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+-------------------------------------- logging, exception and notebooks --------------------------------------
+14. Write the logger file and test it on demo.py
+15. Write the exception file and test it on demo.py
+16. EDA and Feature Engg notebook added.
