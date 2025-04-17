@@ -22,7 +22,7 @@ class EvaluateModelResponse:
 class ModelEvaluation:
 
     def __init__(self, model_eval_config: ModelEvaluationConfig, data_ingestion_artifact: DataIngestionArtifact,
-                 model_trainer_artifact: ModelTrainerArtifact):
+                    model_trainer_artifact: ModelTrainerArtifact):
         try:
             self.model_eval_config = model_eval_config
             self.data_ingestion_artifact = data_ingestion_artifact
@@ -42,7 +42,7 @@ class ModelEvaluation:
             bucket_name = self.model_eval_config.bucket_name
             model_path=self.model_eval_config.s3_model_key_path
             proj1_estimator = Proj1Estimator(bucket_name=bucket_name,
-                                               model_path=model_path)
+                                                model_path=model_path)
 
             if proj1_estimator.is_model_present(model_path=model_path):
                 return proj1_estimator
@@ -116,10 +116,10 @@ class ModelEvaluation:
             
             tmp_best_model_score = 0 if best_model_f1_score is None else best_model_f1_score
             result = EvaluateModelResponse(trained_model_f1_score=trained_model_f1_score,
-                                           best_model_f1_score=best_model_f1_score,
-                                           is_model_accepted=trained_model_f1_score > tmp_best_model_score,
-                                           difference=trained_model_f1_score - tmp_best_model_score
-                                           )
+                                            best_model_f1_score=best_model_f1_score,
+                                            is_model_accepted=trained_model_f1_score > tmp_best_model_score,
+                                            difference=trained_model_f1_score - tmp_best_model_score
+                                            )
             logging.info(f"Result: {result}")
             return result
 
