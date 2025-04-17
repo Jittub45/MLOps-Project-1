@@ -152,7 +152,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ##  Contact
 
-Jittub45 - [LinkedIn](https://www.linkedin.com/in/kumarjitendra1/) - jitendrakumaryadav2003@.com
+Jittub45 - [LinkedIn](https://www.linkedin.com/in/kumarjitendra1/) - jitendrakumaryadav2003@gmail.com
 
 Project Link: [https://github.com/Jittub45/MLOps-Project-1](https://github.com/Jittub45/MLOps-Project-1)
 ```
