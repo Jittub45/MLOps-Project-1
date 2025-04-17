@@ -17,7 +17,7 @@ An end-to-end MLOps pipeline implementing automated machine learning workflows w
 - **ML Workflow Management**: Experiment tracking & model versioning
 - **Infrastructure as Code**: Configuration management with YAML
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 # Clone repository
@@ -69,37 +69,37 @@ graph TD
 
 ## 🛠 Implementation Details
 
-### 📥 Data Ingestion
+###  Data Ingestion
 - MongoDB Atlas integration for data storage
 - Automated dataset fetching and preprocessing
 - Environment variable management for credentials
 
-### ✔ Data Validation
+###  Data Validation
 - Schema validation using YAML configurations
 - Statistical threshold checks
 - Data quality monitoring
 
-### 🔄 Data Transformation
+###  Data Transformation
 - Custom preprocessing pipelines
 - Feature engineering workflows
 - Column transformer implementation
 
-### 🤖 Model Training
+###  Model Training
 - Experiment tracking with MLflow
 - Hyperparameter configuration management
 - Model version control
 
-### 📊 Model Evaluation
+###  Model Evaluation
 - AWS S3 integration for model storage
 - Performance threshold monitoring
 - Model comparison and selection
 
-### 🚀 Model Deployment
+###  Model Deployment
 - Docker containerization
 - Flask REST API endpoints
 - AWS EC2 instance deployment
 
-### 🔄 CI/CD Pipeline
+###  CI/CD Pipeline
 - GitHub Actions workflow automation
 - AWS ECR container registry
 - Self-hosted runners on EC2
@@ -150,9 +150,9 @@ Contributions welcome! Please follow:
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
-## 📬 Contact
+##  Contact
 
-Jittub45 - [LinkedIn](https://www.linkedin.com/in/your-profile) - your.email@domain.com
+Jittub45 - [LinkedIn](https://www.linkedin.com/in/kumarjitendra1/) - jitendrakumaryadav2003@.com
 
 Project Link: [https://github.com/Jittub45/MLOps-Project-1](https://github.com/Jittub45/MLOps-Project-1)
 ```
